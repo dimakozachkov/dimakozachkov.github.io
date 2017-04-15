@@ -84,7 +84,7 @@
             render: function () {
                 return (
                     <div className="contacts">
-                        <input type="text" className="search-field" classID="search" onChange={this.handleSearch}/>
+                        <input type="text" className="search-field" classID="search" placeholder="Search..." onChange={this.handleSearch}/>
                         <ul className="contacts-list">
                             {
                                 this.state.displayedContacts.map(function (el) {
