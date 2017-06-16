@@ -24,6 +24,7 @@
 }
 .main-header .navbar .sidebar-toggle {
   color: #fff;
+  text-decoration: none;
 }
 .main-header .navbar .navbar-custom-menu .search {
  background: #2a4773;
