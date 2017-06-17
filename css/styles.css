@@ -243,3 +243,36 @@ a:focus {
 	display: table;
 	clear: both;
 }
+
+.mailbox-messages {
+	padding: 10px;
+}
+
+.message-box {
+	border: none;
+	border-bottom: 1px solid #f4f4f4;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.message-box:hover {
+	background: #f4f4f4;
+	cursor: pointer;
+}
+
+.message-box img {
+	height: 64px;
+	width: 64px;
+}
+
+.messages-box .box-body {
+	border-bottom: 1px solid grey;
+}
+
+.message-box .box-body a {
+	font-weight: bold;
+}
+
+.message-box .sent-at {
+	color: #8e8e8e;
+}
